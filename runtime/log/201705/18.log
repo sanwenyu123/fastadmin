@@ -1,0 +1,1979 @@
+[ 2017-05-18T09:40:26+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fastadmin.net/ [运行时间：0.026004s][吞吐率：38.46req/s] [内存消耗：2,264.56kb] [文件加载：69]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495019574',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.019502s][吞吐率：51.28req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071627',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:26+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012002s][吞吐率：83.32req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071627',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ log ] fastadmin.net/index/user/login.html [运行时间：0.024504s][吞吐率：40.81req/s] [内存消耗：2,414.77kb] [文件加载：71]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071627',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->login[ E:\pp\php\fastadmin\application\index\controller\User.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/index\view\user\login.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=user&v=1.0.1 [运行时间：0.021003s][吞吐率：47.61req/s] [内存消耗：2,280.30kb] [文件加载：67]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071630',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/user/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:29+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/user.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/user.js?v=1.0.1 [运行时间：0.012502s][吞吐率：79.99req/s] [内存消耗：1,134.19kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071630',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/user/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/third/action/redirect/platform/wechat.html
+[ log ] fastadmin.net/index/user/third/action/redirect/platform/wechat.html [运行时间：0.022503s][吞吐率：44.44req/s] [内存消耗：2,360.36kb] [文件加载：73]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'third',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071630',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/user/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'redirect',
+  'platform' => 'wechat',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->third[ E:\pp\php\fastadmin\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=user&v=1.0.1 [运行时间：0.021003s][吞吐率：47.61req/s] [内存消耗：2,280.30kb] [文件加载：67]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/user/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/user.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/user.js?v=1.0.1 [运行时间：0.012502s][吞吐率：79.99req/s] [内存消耗：1,134.19kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/user/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fastadmin.net/ [运行时间：0.025504s][吞吐率：39.21req/s] [内存消耗：2,264.75kb] [文件加载：69]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495071648',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/user/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.021503s][吞吐率：46.51req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087350',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:02:29+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012502s][吞吐率：79.99req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087350',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:02:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.020503s][吞吐率：48.77req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087363',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:02:42+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087363',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.020502s][吞吐率：48.78req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087415',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:35+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.013002s][吞吐率：76.91req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087415',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ log ] fastadmin.net/admin/index/login.html [运行时间：0.020002s][吞吐率：49.99req/s] [内存消耗：1,824.96kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087415',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\pp\php\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'code',
+  4 => 'msg',
+  5 => 'data',
+  6 => 'url',
+  7 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ log ] fastadmin.net/admin/index/index [运行时间：0.048006s][吞吐率：20.83req/s] [内存消耗：2,648.84kb] [文件加载：80]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087415',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/index/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\pp\php\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.018002s][吞吐率：55.55req/s] [内存消耗：1,857.95kb] [文件加载：66]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087428',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/index/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\pp\php\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ log ] fastadmin.net/admin/dashboard?addtabs=1 [运行时间：0.043005s][吞吐率：23.25req/s] [内存消耗：2,462.79kb] [文件加载：73]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087428',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/dashboard',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\pp\php\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'totaluser',
+  4 => 'totalviews',
+  5 => 'totalorder',
+  6 => 'totalorderamount',
+  7 => 'todayuserlogin',
+  8 => 'todayusersignup',
+  9 => 'todayorder',
+  10 => 'todayunsettleorder',
+  11 => 'sevendnu',
+  12 => 'sevendau',
+  13 => 'paylist',
+  14 => 'createlist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ log ] fastadmin.net/admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1 [运行时间：0.018002s][吞吐率：55.55req/s] [内存消耗：1,854.53kb] [文件加载：65]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087428',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/dashboard?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\pp\php\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard
+[ log ] fastadmin.net/admin/dashboard [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,436.42kb] [文件加载：58]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087428',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/index/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ log ] fastadmin.net/admin/index/index [运行时间：0.034504s][吞吐率：28.98req/s] [内存消耗：2,648.84kb] [文件加载：80]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087428',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/index/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\pp\php\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000500s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T14:03:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.018002s][吞吐率：55.55req/s] [内存消耗：1,857.95kb] [文件加载：66]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087437',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/index/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\pp\php\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:04:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ log ] fastadmin.net/admin/dashboard?addtabs=1 [运行时间：0.034505s][吞吐率：28.98req/s] [内存消耗：2,462.79kb] [文件加载：73]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087437',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/dashboard',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\pp\php\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'totaluser',
+  4 => 'totalviews',
+  5 => 'totalorder',
+  6 => 'totalorderamount',
+  7 => 'todayuserlogin',
+  8 => 'todayusersignup',
+  9 => 'todayorder',
+  10 => 'todayunsettleorder',
+  11 => 'sevendnu',
+  12 => 'sevendau',
+  13 => 'paylist',
+  14 => 'createlist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000500s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T14:04:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ log ] fastadmin.net/admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1 [运行时间：0.019502s][吞吐率：51.28req/s] [内存消耗：1,854.53kb] [文件加载：65]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087437',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/dashboard?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\pp\php\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fastadmin.net/ [运行时间：0.024003s][吞吐率：41.66req/s] [内存消耗：2,263.89kb] [文件加载：69]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087437',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.020503s][吞吐率：48.77req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087507',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T14:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012002s][吞吐率：83.32req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087507',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T17:26:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index.html
+[ log ] fastadmin.net/index/index.html [运行时间：0.025003s][吞吐率：40.00req/s] [内存消耗：2,267.75kb] [文件加载：69]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495087507',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T17:26:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.020503s][吞吐率：48.77req/s] [内存消耗：2,280.86kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495099607',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T17:26:47+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012002s][吞吐率：83.32req/s] [内存消耗：1,134.09kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495099607',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:02:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/index
+[ log ] fastadmin.net/api/index [运行时间：0.035004s][吞吐率：28.57req/s] [内存消耗：1,160.16kb] [文件加载：53]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495099607',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ E:\pp\php\fastadmin\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:02:13+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fastadmin.net/favicon.ico [运行时间：0.012501s][吞吐率：79.99req/s] [内存消耗：1,133.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495099607',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/api/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:02:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/index/index
+[ log ] fastadmin.net/api/index/index [运行时间：0.012502s][吞吐率：79.99req/s] [内存消耗：1,160.14kb] [文件加载：53]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495099607',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ E:\pp\php\fastadmin\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:02:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/index/index.html
+[ log ] fastadmin.net/api/index/index.html [运行时间：0.013002s][吞吐率：76.91req/s] [内存消耗：1,160.01kb] [文件加载：53]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495099607',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Index->index[ E:\pp\php\fastadmin\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fastadmin.net/ [运行时间：0.026003s][吞吐率：38.46req/s] [内存消耗：2,263.90kb] [文件加载：69]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495099607',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.021003s][吞吐率：47.61req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012501s][吞吐率：79.99req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:23:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/new
+[ log ] fastadmin.net/index/new [运行时间：0.014002s][吞吐率：71.42req/s] [内存消耗：1,172.09kb] [文件加载：51]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'new',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:23:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/new
+[ log ] fastadmin.net/index/index/new [运行时间：0.022503s][吞吐率：44.44req/s] [内存消耗：2,289.34kb] [文件加载：71]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'new',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:23:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/new.html
+[ log ] fastadmin.net/index/index/new.html [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：2,289.44kb] [文件加载：71]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'new',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:23:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/news.html
+[ log ] fastadmin.net/index/index/news.html [运行时间：0.039505s][吞吐率：25.31req/s] [内存消耗：2,325.10kb] [文件加载：70]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->news[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_page` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_page` WHERE  `category_id` = 1 ORDER BY `weigh`  desc [ RunTime:0.000501s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T18:26:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/news.html
+[ log ] fastadmin.net/index/index/news.html [运行时间：0.037505s][吞吐率：26.66req/s] [内存消耗：2,325.23kb] [文件加载：70]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->news[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010501s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_page` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_page` WHERE  `category_id` = 1 ORDER BY `weigh`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T18:26:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/news.html
+[ log ] fastadmin.net/index/index/news.html [运行时间：0.034504s][吞吐率：28.98req/s] [内存消耗：2,325.23kb] [文件加载：70]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->news[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_page` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_page` WHERE  `category_id` = 1 ORDER BY `weigh`  desc [ RunTime:0.000500s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T18:28:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/news.html
+[ log ] fastadmin.net/index/index/news.html [运行时间：0.039005s][吞吐率：25.64req/s] [内存消耗：2,326.09kb] [文件加载：70]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->news[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_page` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_page` WHERE  `category_id` = 1 ORDER BY `weigh`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ log ] fastadmin.net/admin/index/index [运行时间：0.060007s][吞吐率：16.66req/s] [内存消耗：2,648.71kb] [文件加载：80]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495102973; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\pp\php\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'menulist',
+  4 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010501s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002501s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000500s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/admin/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.018502s][吞吐率：54.05req/s] [内存消耗：1,857.95kb] [文件加载：66]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103403',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/index/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\pp\php\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ log ] fastadmin.net/admin/dashboard?addtabs=1 [运行时间：0.042005s][吞吐率：23.81req/s] [内存消耗：2,462.79kb] [文件加载：73]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103403',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/dashboard',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ E:\pp\php\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'admin',
+  3 => 'totaluser',
+  4 => 'totalviews',
+  5 => 'totalorder',
+  6 => 'totalorderamount',
+  7 => 'todayuserlogin',
+  8 => 'todayusersignup',
+  9 => 'todayorder',
+  10 => 'todayunsettleorder',
+  11 => 'sevendnu',
+  12 => 'sevendau',
+  13 => 'paylist',
+  14 => 'createlist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=fastadmin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT `id`,`condition`,`name`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000500s ]
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1
+[ log ] fastadmin.net/admin/ajax/lang?callback=define&controllername=dashboard&v=1.0.1 [运行时间：0.018502s][吞吐率：54.05req/s] [内存消耗：1,854.53kb] [文件加载：65]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103403',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/admin/dashboard?addtabs=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ E:\pp\php\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fastadmin.net/ [运行时间：0.029004s][吞吐率：34.48req/s] [内存消耗：2,391.29kb] [文件加载：71]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103403',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\pp\php\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\pp\php\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.020003s][吞吐率：49.99req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103407',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:07+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103407',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=index&v=1.0.1
+[ log ] fastadmin.net/index/ajax/lang?callback=define&controllername=index&v=1.0.1 [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：2,280.80kb] [文件加载：68]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103417',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1.0.1',
+)
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ E:\pp\php\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] E:\pp\php\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-18T18:30:17+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/js/frontend/index.js?v=1.0.1
+[ log ] fastadmin.net/assets/js/frontend/index.js?v=1.0.1 [运行时间：0.012501s][吞吐率：79.99req/s] [内存消耗：1,133.96kb] [文件加载：48]
+[ info ] [ LANG ] E:\pp\php\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'js',
+    2 => 'frontend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dmfpce8gmhcebrd5ci58m6fki4; Hm_lvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; Hm_lpvt_60caac049a50d7ce2a65fb5c83eea1fb=1495018173; think_var=zh-cn; Hm_lvt_58347d769d009bcf6074e9a0ab7ba05e=1495017011; Hm_lpvt_58347d769d009bcf6074e9a0ab7ba05e=1495103417',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://fastadmin.net/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'fastadmin.net',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.0.1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
