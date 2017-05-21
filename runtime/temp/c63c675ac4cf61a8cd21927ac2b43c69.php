@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\pp\php\fastadmin\public/../application/index\view\index\index.html";i:1495103281;s:74:"E:\pp\php\fastadmin\public/../application/index\view\layout\bootstrap.html";i:1495003774;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"E:\pp\php\fastadmin\public/../application/index\view\index\index.html";i:1495103437;s:74:"E:\pp\php\fastadmin\public/../application/index\view\layout\bootstrap.html";i:1495003774;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -64,7 +64,7 @@
     <div class="row">
         <div class="col-xs-6">
 
-            <a href="<?php echo url('admin/index/login'); ?>" class="btn btn-block btn-lg btn-success">FastAdmin后台演示11</a>
+            <a href="<?php echo url('admin/index/login'); ?>" class="btn btn-block btn-lg btn-success">FastAdmin后台演示</a>
         </div>
         <div class="col-xs-6">
             <a href="http://git.oschina.net/karson/fastadmin?ref=fastadmin" target="_blank" class="btn btn-block btn-lg btn-info">FastAdmin源码下载</a>

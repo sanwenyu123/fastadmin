@@ -2,9 +2,9 @@
 
 namespace app\index\controller;
 
-use app\common\controller\Frontend;
+use app\common\controller\WxFrontend;
 
-class Index extends Frontend
+class Index extends WxFrontend
 {
 
     protected $layout = 'bootstrap';

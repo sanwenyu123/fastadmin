@@ -2,6 +2,7 @@
 
 namespace fast\third;
 
+use app\common\model\User;
 use fast\Http;
 use think\Config;
 use think\Session;
@@ -22,6 +23,9 @@ class Wechat
      */
     private $config = [];
 
+    protected $user = null;
+
+
     public function __construct($options = [])
     {
         if ($config = Config::get('third.wechat'))
@@ -29,8 +33,33 @@ class Wechat
             $this->config = array_merge($this->config, $config);
         }
         $this->config = array_merge($this->config, is_array($options) ? $options : []);
+
+        $this->user = new User;
     }
 
+    /**
+     * 初始化
+     * @param array $options 参数
+     * @return Auth
+     */
+    public static function instance($options = [])
+    {
+        if (is_null(self::$instance))
+        {
+            self::$instance = new static($options);
+        }
+
+        return self::$instance;
+    }
+
+
+    public function loginInfo(){
+        if(!isset($_SESSION['openid'])){
+            $this->login();
+        }
+
+        return Session::get("userInfo");
+    }
     /**
      * 登陆
      */

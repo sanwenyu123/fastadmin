@@ -32,6 +32,12 @@ class User extends Frontend
     }
 
     /**
+     * 微信回调地址
+     */
+    public function callback(){
+        var_dump($this->request);exit;
+    }
+    /**
      * 注册会员
      */
     public function register()
@@ -69,6 +75,7 @@ class User extends Frontend
         }
         return $this->view->fetch();
     }
+
 
     /**
      * 会员登录
