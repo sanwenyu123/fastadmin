@@ -1,0 +1,6 @@
+.idea
+*.log
+*.css.map
+runtime/
+runtime/temp
+/public/uploads
