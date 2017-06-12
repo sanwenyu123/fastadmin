@@ -41,7 +41,7 @@ class WxFrontend extends Controller
         $this->user->init();
 */
         $wechat = new Wechat();
-        $wechat->loginInfo();
+//        $wechat->loginInfo();
 
         // 将auth对象渲染至视图
         $this->view->assign("user", $this->user);
