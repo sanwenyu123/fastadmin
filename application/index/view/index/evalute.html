@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div class="screen">
+    <div class="layout_content_full background-color_dividing">
+        <div class="background-color_white preview_title_box">
+            <h5>请选择一个评价</h5>
+            <div class="air_tab_list fif_top">
+                <button id="tab1" class="evaluation_select air_tab_item evaluation_selected" for="0" >强烈推荐</button>
+                <button class="evaluation_select air_tab_item" for="1">一般般</button>
+                <button class="evaluation_select air_tab_item" for="2">可以尝试</button>
+                <button class="evaluation_select air_tab_item" for="3">真的很烂</button>
+
+            </div>
+        </div>
+        <div class="dividing_line3"></div>
+        <div class="mui-input-row address_row message_h row_then-last">
+            <textarea id='content_text' class="widget_title input_change login_word" placeholder="请输入您想要说的" onfocus="this.placeholder=''"/></textarea>
+        </div>
+        <div class="background-color_white btn_group">
+            <button type="button" id="add_pic" class="pic_btn complain_square" style="border: rgba(128, 128, 128, 0.36) solid 1px;">
+                <h1 class="color_content">+</h1>
+                <h5 class="color_content">添加照片</h5>
+            </button>
+            <!-- <input id="upload_image1" type="file" name="image" accept="image/*" style="display: none;" /> -->
+        </div>
+        <button class="button_sure orange_background color_white" id="btnAdd">立即发布</button>
+    </div>
+</div>
+<div id="container" hidden="hidden">
+    <a id="forumFile" href="#">上传文件</a> <span id="forumFile_msg" style="font-size: 11px; color: red"></span>
+    <div id="upload_sucess" style="display: none;">上传成功</div>
+</div>
+<script type="text/javascript" src="lib/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="lib/mui.min.js"></script>
+<script type="text/javascript" src="js/constant.js"></script>
+<script type="text/javascript" src="js/sys.js"></script>
+<script type="text/javascript" src="js/sys2.js"></script>
+<script type="text/javascript" src="lib/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="js/imgEditor.js"></script>
+<script>
+    var id="",b_id="";
+
+    $(function() {
+//tabchange
+        $(".air_tab_list>button").click(function(){
+            $(this).siblings().removeClass('evaluation_selected').end().addClass('evaluation_selected');
+        });
+//上传图片
+        init();
+        var id=getUrlParam("id");
+        if(id){
+            /* showData(); */
+        }
+        var b_id=getUrlParam("b_id");
+        if(b_id)
+        {
+            $(".button_sure").click(function(){
+                if(!(checkupload())){
+                    tipDialog.show(tip_fail,'温馨提示',"图片还未上传完成");
+                    return;
+                }
+//if(!b_id){
+//tipDialog.show(tip_fail,'温馨提示',"商户id不能为空");
+//return;
+//}
+//postData(b_id);
+            })
+        }
+    });
+
+</script>
+</body>
+</html>

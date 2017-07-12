@@ -25,4 +25,19 @@ class Index extends WxFrontend
         return jsonp(['newslist' => $newslist, 'new' => count($newslist), 'url' => 'http://www.fastadmin.net?ref=news']);
     }
 
+
+    /**
+     * 评价页面
+     */
+    public function evalute(){
+        return $this->view->fetch();
+    }
+
+    /**
+     * 评价页面
+     */
+    public function showpic(){
+        return $this->view->fetch();
+    }
+
 }
